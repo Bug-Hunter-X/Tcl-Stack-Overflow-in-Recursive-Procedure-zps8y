@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Tcl programming: stack overflow due to infinite recursion.  The `bug.tcl` file contains a recursive procedure that lacks a proper termination condition, causing it to repeatedly call itself until the program crashes.  `bugSolution.tcl` provides a corrected version with a base case to avoid the stack overflow.
